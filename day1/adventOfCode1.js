@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const input = fs.readFileSync("./input1.txt", { encoding: "utf-8" }).split("\n\n");
+const input = fs.readFileSync("./input.txt", { encoding: "utf-8" }).split("\n\n");
 
 const t0_0 = performance.now();
 
